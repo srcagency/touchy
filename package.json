@@ -1,6 +1,6 @@
 {
 	"name": "touchy",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Test for touch devices and/or toggle appropriate css classes",
 	"repository": {
 		"type": "git",
