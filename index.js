@@ -1,7 +1,5 @@
 'use strict';
 
-var html = require('html-me');
-
 module.exports = test;
 
 test.mark = mark;
@@ -16,11 +14,6 @@ function mark( w /* window */ ){
 }
 
 function toggle( $element, areWeTouchy ){
-	if (areWeTouchy) {
-		html.removeClass($element, 'no-touch');
-		html.addClass($element, 'touch');
-	} else {
-		html.addClass($element, 'no-touch');
-		html.removeClass($element, 'touch');
-	}
+	$element.classList.remove(areWeTouchy ? 'no-touch' : 'touch');
+	$element.classList.add(areWeTouchy ? 'touch' : 'no-touch');
 }
