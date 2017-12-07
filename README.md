@@ -5,7 +5,7 @@
 .. if a browser is run on a touch device.
 
 ```js
-var touchy = require('touchy');
+var touchy = require('is-touchy');
 touchy(window);	// true/false
 ```
 
@@ -14,7 +14,7 @@ touchy(window);	// true/false
 .. the `<html>` element with classes.
 
 ```js
-var touchy = require('touchy');
+var touchy = require('is-touchy');
 touchy.mark(window);
 ```
 
@@ -44,12 +44,12 @@ toggle(element, switch)
 ```
 
 ```js
-var touchy = require('touchy');
+var touchy = require('is-touchy');
 touchy.toggle(document.querySelector('#some-id'), touchy(window));
 ```
 
 ```js
-var touchy = require('touchy');
+var touchy = require('is-touchy');
 touchy.toggle(document.querySelector('#some-id'), true);
 ```
 

@@ -1,5 +1,5 @@
 {
-	"name": "touchy",
+	"name": "is-touchy",
 	"version": "0.0.2",
 	"description": "Test for touch devices and/or toggle appropriate css classes",
 	"repository": {
